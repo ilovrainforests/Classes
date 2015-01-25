@@ -1,0 +1,77 @@
+/* Comment in CSS */
+/*When I type this and then select and hit command ? the whole selected text becomes a comment -- pretty sweet!! */
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+table {color:#222222;}
+
+.special { /*This is a class declaration*/
+  color: red;
+}
+
+#specialid { /*This is the declaration for an ID*/
+  color: blue;
+}
+
+em {
+  color: red;
+}
+
+p em {
+  color: brown;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #CCC;
+font-family: Arial, sans-serif;
+font-size: 14px;
+}
+
+p {
+  font-family: 'Oswald',Helvetica;
+  font-size: 100%;
+  color: #CC00FF;
+}
+
+.box {
+  border: 10px red solid;
+  background-color: #C98;
+  font-family: 'Oswald',Helvetica;
+  font-size: 100%;
+  color: #CC00FF;
+  padding: 60px; 
+  margin: 20px;
+}
+
+.container {
+  width: 100%;
+}
+.left {
+  background-color: #CCC;
+  float: left;
+ /*width: 100px;*/
+width: 50%
+}
+
+.right {
+  background-color: #F99;
+  float: right;
+  /*width: 100px;*/
+  width: 50%;
+}
+
+.move {
+  clear: both;
+}
+
+#sidebar {
+  background-color: blue;
+  width: 150px;
+  float: left;
+}
+
+#main-content {
+  width: 660px;
+  padding: 50px;
+  float: right;
+  border: 3px solid red;
+}

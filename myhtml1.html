@@ -1,0 +1,33 @@
+<!DOCTYPE html><html><head><title>Page Title</title></head>
+<body>
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+<p>boo</p>
+<img id="d" src="http://placecorgi.com/250" />
+<button id="counter">0</button>
+<input id="name" type="text">
+  <button id="button">Say My Name</button>
+  
+<script type="text/javascript">
+var d = document.getElementById('d');
+d.src = 'http://placecorgi.com/100/500';
+
+</script>
+<script>
+var button = document.getElementById('button');
+function onClick(event) {
+    var name = document.getElementById("name").value;
+    alert("Hi, " + name);
+}
+button.addEventListener('click', onClick);
+  </script>
+<script>
+var counterButton = document.getElementById('counter');
+function onButtonClick() {
+    counterButton.innerHTML = parseInt(counterButton.innerHTML) + 1;
+}
+counterButton.addEventListener('click', onButtonClick, false);
+</script>
+
+		</body>
+</html>
